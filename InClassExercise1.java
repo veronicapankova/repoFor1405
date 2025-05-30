@@ -67,6 +67,7 @@ public class InClassExercise1
         // experiment with math.pow()
         // write the code to print 2 to the power 3 (which is 8)
         System.out.println(Math.pow(2, 3));
+        System.out.println("factorial");
         
         // write your own factorial method
         System.out.println(factorial(5));
@@ -93,7 +94,7 @@ public class InClassExercise1
      * @param x
      * @return
      */
-    public static int fact(int x)
+    public static int factorial(int x)
     {
         if (x == 0 || x == 1)
         {
