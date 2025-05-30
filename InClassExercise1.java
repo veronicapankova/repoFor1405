@@ -93,7 +93,7 @@ public class InClassExercise1
      * @param x
      * @return
      */
-    public static int factorial(int x)
+    public static int fact(int x)
     {
         if (x == 0 || x == 1)
         {
